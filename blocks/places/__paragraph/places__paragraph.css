@@ -1,8 +1,8 @@
 .places__paragraph {
-font-size: 18px;
-line-height: 29px;
-grid-column: 2;
-margin: 0 0 26px 0;
+  font-size: 18px;
+  line-height: 29px;
+  grid-column: 2;
+  margin: 0 0 26px 0;
 }
 
 .places__paragraph:last-of-type {
@@ -15,11 +15,10 @@ margin: 0 0 26px 0;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 880px) {
   .places__paragraph {
     font-size: 16px;
     line-height: 26px;
-    margin: -1px 0 25px 0;
   }
 }
 
@@ -29,6 +28,7 @@ margin: 0 0 26px 0;
     margin-left: 16px;
     margin-right: 16px;
   }
+
   .places__paragraph:last-of-type {
     margin-left: 16px;
     margin-right: 16px;
@@ -45,4 +45,3 @@ margin: 0 0 26px 0;
     margin: 0 auto;
   }
 }
-

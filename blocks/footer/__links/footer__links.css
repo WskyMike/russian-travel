@@ -1,8 +1,8 @@
 .footer__links {
-list-style-type: none;
-margin: 0 auto;
-padding: 0;
-display: flex;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
 }
 
 @media screen and (max-width: 767px) {
